@@ -3816,3 +3816,19 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
